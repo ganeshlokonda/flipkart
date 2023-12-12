@@ -1,0 +1,274 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header
+{
+ background-color: gray;
+ padding: 20px;
+ margin:10px
+}
+.product
+{
+  padding: 20px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  width:fit-content;
+}
+.products
+{
+  background-color:pink;
+  border:2px solid gray; 
+  margin: 2px ;
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+} */
+*
+{
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(233, 234, 244);
+}
+.fheader
+{
+  width:100%;
+  display: flex;
+  background-color: whitesmoke;
+  /* background-color: blue; */
+}
+.logo
+{
+  /* box-sizing: border-box; */
+  width:260px;
+  height: 70px;
+  background-color: whitesmoke;
+  /* background-color: red; */
+/* overflow: hidden; */
+}
+.image
+{
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  padding-top: 10px;
+  height: 100%;
+  width: 100%;
+}
+.searchBar
+{
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  padding-top: 17px;
+  padding-left: 20px;
+  width: 600px;
+  display: flex;
+  /* background-color: aqua; */
+  /* justify-content: center; */
+  align-items: center;
+}
+.innerSearch
+{
+ 
+  width:100%;
+  height: 70%;
+  /* background-color: blueviolet; */
+  box-sizing: border-box;
+  padding-left:10px;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid gray; */
+  border-radius: 6px 6px 6px 6px;
+  overflow:hidden;
+  background-color: rgb(233, 234, 244);
+}
+.icon
+{
+  /* background-color: whitesmoke; */
+  box-sizing: border-box;
+  padding: 11px;
+  width:7%;
+  height: 100%;
+  cursor: pointer;
+  /* background-color: rgb(16, 197, 22); */
+}
+.input
+{
+  width:93%;
+  height: 100%;
+  /* background-color: rgb(4, 1, 1); */
+  overflow: hidden;
+  /* overflow-wrap: normal; */
+}
+.imageIcon
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(233, 234, 244);
+  
+}
+.name
+{
+ width: 100%;
+ height:100%;
+ background-color: rgb(233, 234, 244);
+ text-indent: 20px;
+ letter-spacing: 0.5px;
+ font-size: 17px;
+ outline: none;
+ border: none;
+
+}
+.account
+{
+  background-color: whitesmoke;
+  display: flex;
+  width:150px;
+  height: 70px;
+  /* background-color: blue; */
+  align-items: center;
+}
+.userphoto
+{
+  background-color: whitesmoke;
+  box-sizing: border-box; 
+  padding-top: 18px;
+  padding-left: 10px;
+  width: 100%;
+  height: 40px;
+}
+.login
+{
+  background-color: whitesmoke;
+  padding-left: 10px;
+  padding-top: 10px;
+  display: flex;
+  letter-spacing: 0.5;
+  justify-content: center;
+  align-items: center;
+
+}
+p{
+  background-color: whitesmoke;
+  padding: 3px;
+}
+.cart
+{
+  background-color: whitesmoke;
+  display: flex;
+  width:150px;
+  height: 70px;
+  /* background-color: blue; */
+  align-items: center;
+}
+.product
+{
+  background-color: whitesmoke;
+  padding: 25px 25px ;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 3px 3px 3px 3px;
+  transition: 0.5s;
+}
+.img{
+  border-radius: 2px 2px 2px 2px;
+  height:150px;
+  width: 100px;
+}
+.products-items
+{
+  display: flex;
+  /* background-color: aqua; */
+  /* border: 1px solid lightgray; */
+  background-color: whitesmoke;
+  /* justify-content: space-around; */
+  padding: 30px;
+  margin: 10px;
+}
+.products{
+  margin: 30px 25px 0px 25px;
+  display: flex;
+  /* background-color:bisque; */
+  border: 1px solid lightgray;
+  background-color: whitesmoke;
+  border-radius: 3px 3px 3px 3px;
+  justify-content: space-around;
+  /* padding: 20px; */
+  /* margin: 10px; */
+}
+button{
+  /* outline: none; */
+  background-color: whitesmoke;
+  border: none;
+  padding: 4px;
+}
+h3{
+  padding-top:8px;
+  background-color: whitesmoke;
+}
+.banner
+{
+  width:100%;
+  height: 300px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.bannerPhoto
+{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 100%; 
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+.bannerPhoto:hover{
+  transform: scale(1.1);
+}
+.product:hover{
+  transform: scale(1.1);
+}
